@@ -6,6 +6,7 @@
 #########################################################
 
 
+
 from fastapi import FastAPI
 from app import models, database
 from app.auth import auth_router

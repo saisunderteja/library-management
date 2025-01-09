@@ -6,6 +6,7 @@
 ###################################################
 
 
+
 def test_register_user(client):
     response = client.post("/users/register", json={"username": "testuser", "password": "password123"})
     assert response.status_code == 200
